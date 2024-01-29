@@ -5,9 +5,10 @@ body{
   background-image:url(backgrounddd.jpg) ;
   height: 100%;
   background-repeat: no-repeat;
-background-size: 100%;
+  background-size: 100%;
   font-family: 'Roboto', sans-serif; 
-  color: #fff;
+  background-color: rgb(119, 171, 219);
+
 }
 
 a{
@@ -16,12 +17,13 @@ a{
 }
 .image{
     padding-left: 40px;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    padding-top: 20px;
     
 }
 
 .image:hover{
-    transform: scale(1.4);
+    transform: scale(1.3);
     transition: 0.6s;
 }
 .main-body{
@@ -150,7 +152,7 @@ button {
   }
 
   #start-button:hover{
-transform: scale(1.2);
+transform: scale(1.15);
 transition: 0.5s;
   }
 
