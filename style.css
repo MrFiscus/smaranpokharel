@@ -10,6 +10,10 @@ background-size: 100%;
   color: #fff;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
 .image{
     padding-left: 40px;
     transform: scale(1.2);
@@ -143,6 +147,11 @@ button {
     width: 100px;
     height: 45px;
 
+  }
+
+  #start-button:hover{
+transform: scale(1.2);
+transition: 0.5s;
   }
 
 @keyframes loader{
