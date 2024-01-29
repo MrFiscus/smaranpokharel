@@ -181,3 +181,13 @@ transition: 0.5s;
     }
 
 }
+
+@media (min-height:700px){
+  
+  body{
+    background-size: 1600px 1200px;
+    background-color:
+  
+}
+}
+
